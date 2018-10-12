@@ -12,6 +12,7 @@ class FoundationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_foundation)
         btn_coordinate_system.setOnClickListener { startActivity(Intent(this@FoundationActivity, CoordinateSystemActivity::class.java)) }
+        btn_basic_shape.setOnClickListener { startActivity(Intent(this@FoundationActivity, BasicShapeActivity::class.java)) }
     }
 
 }
