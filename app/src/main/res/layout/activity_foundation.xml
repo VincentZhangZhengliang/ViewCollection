@@ -37,6 +37,18 @@
                 android:layout_height="wrap_content"
                 android:text="基本图形" />
 
+            <Button
+                android:id="@+id/btn_canvas_convert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="画布转换" />
+
+            <Button
+                android:id="@+id/btn_canvas_picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="图片文字" />
+
 
         </LinearLayout>
 

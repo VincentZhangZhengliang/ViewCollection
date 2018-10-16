@@ -24,7 +24,11 @@
             android:name=".foundation.FoundationActivity"
             android:label="foundation" />
         <activity android:name=".foundation.CoordinateSystemActivity" />
-        <activity android:name=".foundation.BasicShapeActivity"></activity>
+        <activity android:name=".foundation.BasicShapeActivity" />
+        <activity android:name=".example.pieview.PieViewActivity" />
+        <activity android:name=".DemoActivity" />
+        <activity android:name=".foundation.CanvasConvertActivity" />
+        <activity android:name=".foundation.CanvasPictureTextActivity"></activity>
     </application>
 
 </manifest>

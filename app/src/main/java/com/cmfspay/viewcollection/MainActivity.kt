@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initListener() {
         btn_view_foundation.setOnClickListener { startActivity(Intent(this, FoundationActivity::class.java)) }
+        btn_demo.setOnClickListener { startActivity(Intent(this, DemoActivity::class.java)) }
     }
 
 }

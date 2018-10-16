@@ -66,6 +66,14 @@ public class BasicShapeView extends View {
 		drawRoundRect(canvas);
 		drawOval(canvas);
 		drawCircle(canvas);
+		drawArc(canvas);
+	}
+
+	//画圆弧
+	private void drawArc(Canvas canvas) {
+		mPaint.setStyle(Paint.Style.STROKE);
+		RectF rectF = new RectF(300, 40, 500, 240);
+		canvas.drawArc(rectF, 0, 270, false, mPaint);
 	}
 
 	private void drawCircle(Canvas canvas) {

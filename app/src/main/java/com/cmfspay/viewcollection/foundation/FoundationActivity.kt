@@ -13,6 +13,8 @@ class FoundationActivity : AppCompatActivity() {
         setContentView(R.layout.activity_foundation)
         btn_coordinate_system.setOnClickListener { startActivity(Intent(this@FoundationActivity, CoordinateSystemActivity::class.java)) }
         btn_basic_shape.setOnClickListener { startActivity(Intent(this@FoundationActivity, BasicShapeActivity::class.java)) }
+        btn_canvas_convert.setOnClickListener { startActivity(Intent(this@FoundationActivity, CanvasConvertActivity::class.java)) }
+        btn_canvas_picture.setOnClickListener { startActivity(Intent(this@FoundationActivity, CanvasPictureTextActivity::class.java)) }
     }
 
 }
